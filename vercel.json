@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    { "source": "/kitchens", "destination": "/#services", "permanent": true },
+    { "source": "/bespoke-fitted-furniture", "destination": "/", "permanent": true },
+    { "source": "/flooring", "destination": "/", "permanent": true },
+    { "source": "/carpentry-and-finishing", "destination": "/#services", "permanent": true },
+    { "source": "/about-us", "destination": "/#about", "permanent": true },
+    { "source": "/our-work", "destination": "/#work", "permanent": true },
+    { "source": "/work-gallery", "destination": "/#work", "permanent": true },
+    { "source": "/testimonials", "destination": "/#reviews", "permanent": true },
+    { "source": "/contact-us", "destination": "/#quote", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/privacy.html", "permanent": true },
+    { "source": "/cookie-policy", "destination": "/privacy.html", "permanent": true }
+  ]
+}
