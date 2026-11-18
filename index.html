@@ -254,8 +254,8 @@ fieldset.field { border: 0; padding: 0; margin: 0; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
 .chip { position: relative; }
 .chip input { position: absolute; left: 0; top: 0; opacity: 0; pointer-events: none; }
-.chip span { display: inline-block; padding: 8px 14px; border: 1px solid var(--line); border-radius: 100px; font-size: .92rem; cursor: pointer; background: var(--bg); }
-.chip input:checked + span { background: var(--fir); color: var(--on-fir); border-color: var(--fir); }
+.chip span { -webkit-tap-highlight-color: transparent; display: inline-block; padding: 8px 14px; border: 1px solid var(--line); border-radius: 100px; font-size: .92rem; cursor: pointer; background: var(--bg); }
+.chip input:checked + span { background: var(--brass-soft); color: var(--ink); border: 2px solid var(--brass); padding: 7px 13px; font-weight: 600; }
 .chip input:focus-visible + span { outline: 2px solid var(--brass); outline-offset: 2px; }
 .form-foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
 .form-foot p { font-size: .86rem; color: var(--muted); max-width: 44ch; }
